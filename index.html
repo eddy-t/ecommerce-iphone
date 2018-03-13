@@ -9,7 +9,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900|Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,900" rel="stylesheet">
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -19,7 +19,8 @@
         <link rel="stylesheet" href="css/fa-svg-with-js.css">
 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
     </head>
@@ -28,11 +29,51 @@
     <body>
 
         <!-- header -->
-        <header class="header">
+        <header class="header" id="HOME">
+
+          <!-- Navigation -->
+
+          <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="loso-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                    <!-- small size logo -->
+                    <img src="images/logo-small.png" alt="logo">
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                              <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                  <li><a href="#HOME" class="nav-item">HOME</a></li>
+                                  <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
+                                  <li><a href="#FEATURES" class="nav-item">FEATURES</a></li>
+                                  <li><a href="#SCREENS" class="nav-item">SCREENS</a></li>
+                                  <li><a href="#DOWNLOAD" class="nav-item">DOWNLOAD</a></li>
+                                  <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+
+
+                    </div>
+
+              </div>
+
+            </nav>
+
 
           <div class="header-overlay">
 
-              <div class="container">
+              <div class="container header-container">
 
                 <div class="row">
 
@@ -98,7 +139,7 @@
         </header>
 
         <!-- About us -->
-          <section>
+          <section id="ABOUT">
 
             <div class="container">
 
@@ -117,13 +158,11 @@
 
 
                     </div>
-
+                    </div>
                   </div>
 
                 </div>
-
-            </div>
-              <div class="choose-us-wrapper">
+                <div class="choose-us-wrapper">
 
                 <div class="container">
 
@@ -137,8 +176,6 @@
                             <img src="images/about-iphone.png" alt="iphone">
 
                         </div>
-
-
                       </div>
 
                       <div class="col-md-6">
@@ -183,7 +220,7 @@
                       <div class="choose-us-item">
 
                         <!-- choose us item icon -->
-                        <div><i class="fa fa-flag-o"></i></div>
+                        <div><i class="fa fa-flag"></i></div>
 
                         <!-- choose us item title & description -->
                         <h3>PERSPICIATIS UNDE OMNIS</h3>
@@ -193,17 +230,13 @@
                       </div>
 
                         </div>
-
-
                       </div>
-
                     </div>
-
                 </div>
-
               </div>
+            </section>
 
-              <!-- Testimonials -->
+                <!-- Testimonials -->
               <section class="testimonial">
 
                 <div class="testimonial-overlay">
@@ -271,10 +304,29 @@
 
                                       </div>
 
-                                    </div>
-
-
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
+
+              </section>
+
+              <!-- Features -->
+              <section class="features" id="FEATURES">
+
+                <div class="container">
+
+                  <div class="row">
+
+                    <div class="col-md-10 col-md-offset-1">
+
+                      <div class="section-title">
+
+                        <h2>Features</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 
 
                       </div>
@@ -285,12 +337,573 @@
 
                 </div>
 
+                <div class="features-inner-wrapper">
+
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-4">
+
+                        <!-- left feature item 01 -->
+
+                        <div class="left-feature-item">
+
+
+                          <!-- Icon -->
+                          <div class="left-feature-item-icon">
+
+                            <i class="fa fa-desktop"></i>
+
+                          </div>
+
+                          <!-- feature item title & description -->
+                          <h3>retina ready</h3>
+                          <p>Lorem ipsum dolor,
+                            consectetur sed do adipisicing elit,
+                            sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+                        <!-- left feature item 02 -->
+
+                        <div class="left-feature-item">
+
+
+                          <!-- Icon -->
+                          <div class="left-feature-item-icon">
+
+                            <i class="fa fa-mobile"></i>
+
+                          </div>
+
+                          <!-- feature item title & description -->
+                          <h3>mobile ready</h3>
+                          <p>Lorem ipsum dolor,
+                            consectetur sed do adipisicing elit,
+                            sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+
+                        <!-- left feature item 03 -->
+
+                        <div class="left-feature-item">
+
+
+                          <!-- Icon -->
+                          <div class="left-feature-item-icon">
+
+                            <i class="fa fa-eye"></i>
+
+                          </div>
+
+                          <!-- feature item title & description -->
+                          <h3>easy layout</h3>
+                          <p>Lorem ipsum dolor,
+                            consectetur sed do adipisicing elit,
+                            sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-4">
+
+                          <div class="feature-iphone">
+
+                              <img src="images/iphone-02.png" alt="feature iphone">
+
+                          </div>
+                      </div>
+
+                      <div class="col-md-4">
+
+                          <!-- Right feature item 01 -->
+                          <div class="right-feature-item">
+
+                            <!-- Icon -->
+                            <div class="right-feature-item-icon">
+                                <i class="fa fa-certificate"></i>
+
+                            </div>
+
+                            <!-- Feature item title and description -->
+                            <h3>certified solution</h3>
+
+                            <p>Lorem ipsum dolor,
+                              consectetur sed do adipisicing elit,
+                              sed do eiusmod tempor incididunt</p>
+
+                          </div>
+
+                          <!-- Right feature item 02 -->
+                          <div class="right-feature-item">
+
+                            <!-- Icon -->
+                            <div class="right-feature-item-icon">
+                                <i class="fa fa-rss"></i>
+
+                            </div>
+
+                            <!-- Feature item title and description -->
+                            <h3>constant feed</h3>
+
+                            <p>Lorem ipsum dolor,
+                              consectetur sed do adipisicing elit,
+                              sed do eiusmod tempor incididunt</p>
+
+                          </div>
+
+
+                          <!-- Right feature item 03 -->
+                          <div class="right-feature-item">
+
+                            <!-- Icon -->
+                            <div class="right-feature-item-icon">
+                                <i class="fa fa-database"></i>
+
+                            </div>
+
+                            <!-- Feature item title and description -->
+                            <h3>secure data</h3>
+
+                            <p>Lorem ipsum dolor,
+                              consectetur sed do adipisicing elit,
+                              sed do eiusmod tempor incididunt</p>
+
+                          </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+
+
+
+
               </section>
 
+              <!-- Purchase now -->
+              <section class="purchase-now">
+
+                <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-9">
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+
+                      </div>
+
+
+                      <div class="col-md-3">
+
+                        <a class="btn btn-primary btn-purchase-now" href="#">Purchase Now</a>
+
+
+                      </div>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+              </section>
+
+              <!-- Screen section -->
+              <section class="screens" id="SCREENS">
+
+                <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-10 col-md-offset-1">
+
+                          <div class="section-title">
+
+                            <h2>Screens</h2>
+                            <p>Mauris a mauris feugiat, luctus mauris a, sollicitudin ex.
+                               Pellentesque et tortor in risus elementum aliquet.
+                               Etiam facilisis justo urna, id feugiat magna scelerisque non.</p>
+
+                          </div>
+
+
+                      </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="screen-slider">
+
+                  <div class="container">
+
+                    <div class="row">
+                      <div class="col-md-10 col-md-offset-1">
+
+                    <div class="bxslider">
+                    <div class="item">
+                      <img src="images/screen-01.png" alt="screen">
+
+                    </div>
+                    <div class="item">
+                      <img src="images/screen-02.png" alt="screen">
+
+                    </div>
+                    <div class="item">
+                      <img src="images/screen-03.png" alt="screen">
+
+                    </div>
+                    <div class="item">
+                      <img src="images/screen-04.png" alt="screen">
+                    </div>
+
+                  </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+              </section>
+
+              <!-- Counter Section -->
+              <section class="counter">
+
+                <div class="counter-overlay">
+
+                  <div class="container">
+
+                      <div class="row text-center">
+
+                        <div class="col-md-3">
+
+                            <div class="counter-item">
+
+                              <div><i class="fas fa-cloud-download-alt"></i></div>
+                              <h2><span class="counter-num">1588</span><span>+</span></spa></h2>
+                              <p>downloads</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="counter-item">
+
+                              <div><i class="fa fa-gift"></i></div>
+                              <h2><span class="counter-num">3500</span><span>+</span></spa></h2>
+                              <p>awards</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="counter-item">
+
+                              <div><i class="fa fa-heart"></i></div>
+                              <h2><span class="counter-num">199</span><span>+</span></spa></h2>
+                              <p>likes</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="counter-item">
+
+                              <div><i class="fa fa-check"></i></div>
+                              <h2><span class="counter-num">1066</span><span>+</span></spa></h2>
+                              <p>recomended</p>
+
+                            </div>
+                        </div>
+
+
+                      </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Download Now -->
+              <section class="download-now" id="DOWNLOAD">
+
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-10 col-md-offset-1">
+
+                        <div class="section-title">
+                          <h2>download now</h2>
+                          <p>Vestibulum congue eros ac neque dignissim,
+                            vel imperdiet neque consectetur.
+                            Maecenas condimentum cursus maximus.
+                             Praesent eu diam efficitur,</p>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-8 col-md-offset-2">
+
+                        <img src="images/download-screen.png" alt="download screen">
+
+                      </div>
+                    </div>
+                  </div>
+              </section>
+
+              <!-- Available On -->
+              <section class="available-on">
+
+                <div class="container">
+
+                  <div class="row">
+
+                    <div class="col-md-6">
+
+                      <div class="available-title">
+                        <h2>Available on</h2>
+                        <p>Curabitur vitae dolor fermentum, egestas nulla eu, varius lacus.</p>
+
+
+
+                      </div>
+                    </div>
+
+                      <div class="col-md-6">
+
+                        <div class="row">
+
+                          <a href="#">
+
+                            <div class="col-md-4 no-padding">
+                              <div class="available-on-item">
+
+                                <i class="fab fa-apple"></i>
+                                <div class="available-on-inner">
+
+                                  <h2>iOS</h2>
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </a>
+
+                          <a href="#">
+
+                            <div class="col-md-4 no-padding">
+                              <div class="available-on-item">
+
+                                <i class="fab fa-android"></i>
+                                <div class="available-on-inner">
+
+                                  <h2>Android</h2>
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </a>
+
+                          <a href="#">
+
+                            <div class="col-md-4 no-padding">
+                              <div class="available-on-item">
+
+                                <i class="fab fa-windows"></i>
+                                <div class="available-on-inner">
+
+                                  <h2>Windows</h2>
+
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                  </div>
+                </div>
+
+
+              </section>
+
+              <!-- Contact Us -->
+              <section class="contact-us" id="CONTACT">
+
+                <div class="container">
+
+                  <div class="row">
+
+                    <div class="col-md-10 col-md-offset-1">
+
+                      <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <p>Nulla blandit sem sed neque pretium mattis.
+                          Etiam consectetur eleifend felis porttitor porttitor.
+                          Phasellus sit amet augue fringilla, fringilla lectus at, tincidunt ante</p>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="contact-us-form">
+
+                  <div class="container">
+
+                    <form role="form">
+
+                      <div class="row">
+
+                        <div class="col-md-4">
+
+                          <input type="text" class="form-control" id="name" placeholder="Name">
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                          <input type="text" class="form-control" id="subject" placeholder="Subject">
+
+                        </div>
+
+                        <div class="col-md-8">
+
+                          <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text...."></textarea>
+
+                          <button type="button" class="btn btn-default submit-btn form_submit">SEND</button>
+
+                        </div>
+
+                      </div>
+
+                    </form>
+
+                  </div>
+
+                </div>
+
+
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="col-md-12">
+
+                        <div class="social-icons">
+
+                          <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+
+
+
+
+                          </ul>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+
+
+              </section>
+
+              <!-- Footer Section -->
+              <footer class="footer">
+
+              <div class="container">
+
+                <div class="row">
+
+
+                  <div class="col-md-6">
+
+                      <div id="copyright">
+                        <p>Copyright &copy; 2018 <a href="#">- LoSo</a></p>
+                      </div>
+                    </div>
+                  <div class="col-md-6">
+                    <div class="scroll-top">
+
+                        <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+                          </div>
+
+
+                  </div>
+
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+              </footer>
 
         <!-- Bootstrap JS -->
+              <script src="js/script.js"></script>
               <script src="js/jquery.js"></script>
+              <script src="js/jquery.counterup.min.js"></script>
+              <script src="js/jquery.waypoints.min.js"></script>
+              <script src="js/jquery.bxslider.min.js"></script>
     		      <script src="js/bootstrap.min.js"></script>
+              <script src="js/wow.min.js"></script>
               <script src="js/fontawesome-all.min.js"></script>
 
     </body>
