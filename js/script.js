@@ -136,6 +136,7 @@ $(document).ready(function() {
     });
   });
 
+
   // Add Auto padding to Header
 
   $(document).ready(function() {
@@ -183,4 +184,10 @@ $(document).ready(function() {
        delay: 10,
        time: 1000
    });
+  });
+
+// WOW JS
+
+  $(document).ready(function() {
+  new WOW().init();
   });
