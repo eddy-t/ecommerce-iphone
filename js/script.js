@@ -47,13 +47,11 @@ $(document).ready(function() {
 
     });
 
-});
+
 
 
 // Add smooth scrolling
-$(document).ready(function() {
 
-  'use strict';
 
 // Select all links with hashes
 $('.nav-item, #scroll-to-top').click(function(event) {
@@ -87,13 +85,9 @@ $('.nav-item, #scroll-to-top').click(function(event) {
       }
     }
   });
-});
 
 
 /* active menu item on click */
-$(document).ready(function() {
-
-    'use strict';
 
     $('.navbar-nav li a').click(function(){
 
@@ -103,12 +97,9 @@ $(document).ready(function() {
 
         $(this).parent().addClass("active");
     });
-});
+
 
 // Highlight menu item on scrollTop
-$(document).ready(function() {
-
-    'use strict';
 
     $(window).scroll(function() {
 
@@ -134,14 +125,10 @@ $(document).ready(function() {
 
       });
     });
-  });
 
 
   // Add Auto padding to Header
 
-  $(document).ready(function() {
-
-      'use strict';
 
       setInterval(function() {
 
@@ -160,11 +147,9 @@ $(document).ready(function() {
 
     }, 10)
 
-  });
 
   // Add bxslider to SCREENS
 
-  $(document).ready(function(){
      $('.bxslider').bxSlider({
 
        slideWidth: 292.5,
@@ -175,19 +160,16 @@ $(document).ready(function() {
 
      });
 
-   });
-
 // Add counter
 
-  $(document).ready(function() {
     $('.counter-num').counterUp({
        delay: 10,
        time: 1000
    });
-  });
 
 // WOW JS
 
   $(document).ready(function() {
   new WOW().init();
+  });
   });
